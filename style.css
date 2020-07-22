@@ -293,7 +293,11 @@ section#hobby{
     height: 280px;
     padding: 10px;
     box-sizing: border-box;
-    animation: slide 10s infinite;
+    background-image:url("picture/undraw_gaming_6oy3.svg") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* animation: slide 10s infinite; */
     animation-play-state: paused;
     opacity: 0.1;
 } 
@@ -311,7 +315,11 @@ section#hobby{
     height: 280px;
     padding: 10px;
     box-sizing: border-box;
-    animation: slide1 10s infinite;
+    background-image:url("picture/undraw_horror_movie_3988.svg") ;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* animation: slide1 10s infinite; */
     animation-play-state: paused;
     opacity: 0.1;
 } 
@@ -329,7 +337,11 @@ section#hobby{
     height: 280px;
     padding: 10px;
     box-sizing: border-box;
-    animation: slide2 10s infinite;
+    background-image:url("picture/undraw_happy_music_g6wc.svg") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* animation: slide2 10s infinite; */
     animation-play-state: paused;
     opacity: 0.1;
 } 
@@ -934,11 +946,27 @@ section#contact{
     z-index: 3;
 }
 
-.container_form{
+#container_form{
     position: relative;
     top: -130px;
-    left: -60px;
+    left: -98px;
+    width: 100%;
+}
 
+.container .btn-message{
+	position: relative;
+	top: 175px;
+    left: 48px;
+    border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
 }
 
 .container .form1{
@@ -1007,7 +1035,7 @@ section#contact{
     width: 75%;
     position: relative;
     height: 60px;
-    overflow: hidden;
+    overflow: hidden;   
 	top: 135px;
 	left: 49px;
 }
@@ -1108,12 +1136,6 @@ section#contact{
 .container .form3 input:focus + .label-name::after, 
 .container .form3 input:valid + .label-name::after{
     transform: translateX(0%);
-}
-
-.container .btn-message{
-	position: relative;
-	top: 175px;
-	left: 0px;
 }
 
 
